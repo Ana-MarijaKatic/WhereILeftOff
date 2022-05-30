@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clDetailsM"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Honeydew">
+
+    <ImageView
+        android:id="@+id/ivDetailsImageM"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDetailsTitleM"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxLines="1"
+        android:paddingLeft="5dp"
+        android:scrollHorizontally="true"
+        android:text="Movie Title"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/ivDetailsImageM"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDetailsLengthM"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="Length: "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tvDetailsTitleM"
+        app:layout_constraintTop_toBottomOf="@id/tvDetailsTitleM" />
+
+    <TextView
+        android:id="@+id/tvDetailsYearReleasedM"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="Year Released: "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tvDetailsTitleM"
+        app:layout_constraintTop_toBottomOf="@id/tvDetailsLengthM" />
+
+    <TextView
+        android:id="@+id/tvDetailsRatingM"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="Rating: "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tvDetailsTitleM"
+        app:layout_constraintTop_toBottomOf="@id/tvDetailsYearReleasedM" />
+
+    <TextView
+        android:id="@+id/tvDetailsSummaryM"
+        android:layout_width="380dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:maxHeight="190dp"
+        android:minHeight="40dp"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tvDetailsTitleM"
+        app:layout_constraintTop_toBottomOf="@id/tvDetailsRatingM" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

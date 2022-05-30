@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/ivSeriesImage"
-        android:layout_width="56dp"
+        android:layout_width="100dp"
         android:layout_height="70dp"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="10dp"
@@ -19,7 +19,7 @@
 
     <TextView
         android:id="@+id/tvSeriesTitle"
-        android:layout_width="265dp"
+        android:layout_width="540dp"
         android:layout_height="32dp"
         android:ellipsize="marquee"
         android:marqueeRepeatLimit="marquee_forever"

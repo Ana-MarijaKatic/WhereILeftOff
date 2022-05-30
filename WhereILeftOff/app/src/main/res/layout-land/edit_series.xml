@@ -7,16 +7,18 @@
 
     <ImageView
         android:id="@+id/ivImageS"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
         android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/etTitleS"
         android:layout_width="280dp"
         android:layout_height="40dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
         android:background="@color/white"
         android:hint="Series Title"
         android:maxLines="1"
@@ -24,9 +26,9 @@
         android:scrollHorizontally="true"
         android:textColor="@color/Prussian_Blue"
         android:textColorHint="@color/Prussian_Blue"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ivImageS" />
+        app:layout_constraintLeft_toRightOf="@id/ivImageS"
+        app:layout_constraintRight_toLeftOf="@id/btnSaveS"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/etSeasonS"
@@ -40,8 +42,7 @@
         android:paddingLeft="5dp"
         android:textColor="@color/Prussian_Blue"
         android:textColorHint="@color/Prussian_Blue"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@id/etTitleS"
         app:layout_constraintTop_toBottomOf="@id/etTitleS" />
 
     <EditText
@@ -57,6 +58,7 @@
         android:textColorHint="@color/Prussian_Blue"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@id/etTitleS"
         app:layout_constraintTop_toBottomOf="@id/etSeasonS" />
 
     <TextView
@@ -172,35 +174,36 @@
         android:id="@+id/btnCancelS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:width="139dp"
         android:backgroundTint="@color/Powder_Blue"
         android:text="Cancel"
         android:textColor="@color/Prussian_Blue"
-        app:layout_constraintStart_toStartOf="@id/tvMinuteS"
-        app:layout_constraintTop_toBottomOf="@id/rgSetStateS" />
+        app:layout_constraintStart_toStartOf="@id/btnSaveS"
+        app:layout_constraintTop_toBottomOf="@id/btnSaveS" />
 
     <Button
         android:id="@+id/btnSaveS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
         android:width="139dp"
         android:backgroundTint="@color/Celadon_Blue"
         android:text="Save"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="@id/etSecondS"
-        app:layout_constraintTop_toBottomOf="@id/rgSetStateS" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnDeleteS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:width="280dp"
+        android:layout_marginBottom="40dp"
+        android:width="139dp"
         android:backgroundTint="@color/Imperial_Red"
         android:text="Delete"
         android:textColor="@color/white"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnCancelS" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/btnSaveS" />
 </androidx.constraintlayout.widget.ConstraintLayout>

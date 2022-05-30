@@ -5,20 +5,26 @@
     android:layout_height="match_parent"
     android:background="@color/Honeydew">
 
-    <ImageView
-        android:id="@+id/ivImageS"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
+    <Button
+        android:id="@+id/btnEnterBrowseM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:width="280dp"
+        android:backgroundTint="@color/Celadon_Blue"
+        android:text="Browse"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/etTitleS"
+        android:id="@+id/etEnterTitleM"
         android:layout_width="280dp"
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
         android:background="@color/white"
-        android:hint="Series Title"
+        android:hint="Enter Movie Title"
         android:maxLines="1"
         android:paddingLeft="5dp"
         android:scrollHorizontally="true"
@@ -26,41 +32,10 @@
         android:textColorHint="@color/Prussian_Blue"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ivImageS" />
-
-    <EditText
-        android:id="@+id/etSeasonS"
-        android:layout_width="280dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="5dp"
-        android:background="@color/white"
-        android:hint="Season Number"
-        android:inputType="number"
-        android:maxLength="4"
-        android:paddingLeft="5dp"
-        android:textColor="@color/Prussian_Blue"
-        android:textColorHint="@color/Prussian_Blue"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/etTitleS" />
-
-    <EditText
-        android:id="@+id/etEpisodeS"
-        android:layout_width="280dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="5dp"
-        android:background="@color/white"
-        android:hint="Episode Number"
-        android:inputType="number"
-        android:maxLength="4"
-        android:paddingLeft="5dp"
-        android:textColorHint="@color/Prussian_Blue"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/etSeasonS" />
+        app:layout_constraintTop_toBottomOf="@id/btnEnterBrowseM" />
 
     <TextView
-        android:id="@+id/tvMinuteS"
+        android:id="@+id/tvEnterMinuteM"
         android:layout_width="65dp"
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
@@ -68,11 +43,11 @@
         android:text="Minute"
         android:textColor="@color/Prussian_Blue"
         android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@id/etEpisodeS"
-        app:layout_constraintTop_toBottomOf="@id/etEpisodeS" />
+        app:layout_constraintStart_toStartOf="@id/etEnterTitleM"
+        app:layout_constraintTop_toBottomOf="@id/etEnterTitleM" />
 
     <EditText
-        android:id="@+id/etMinuteS"
+        android:id="@+id/etEnterMinuteM"
         android:layout_width="65dp"
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
@@ -83,11 +58,11 @@
         android:maxLength="4"
         android:textColor="@color/Prussian_Blue"
         android:textColorHint="@color/Prussian_Blue"
-        app:layout_constraintStart_toEndOf="@id/tvMinuteS"
-        app:layout_constraintTop_toBottomOf="@id/etEpisodeS" />
+        app:layout_constraintStart_toEndOf="@id/tvEnterMinuteM"
+        app:layout_constraintTop_toBottomOf="@id/etEnterTitleM" />
 
     <TextView
-        android:id="@+id/tvSecondS"
+        android:id="@+id/tvEnterSecondM"
         android:layout_width="65dp"
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
@@ -95,11 +70,11 @@
         android:text="Second"
         android:textColor="@color/Prussian_Blue"
         android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@id/etSecondS"
-        app:layout_constraintTop_toBottomOf="@id/etEpisodeS" />
+        app:layout_constraintEnd_toStartOf="@id/etEnterSecondM"
+        app:layout_constraintTop_toBottomOf="@id/etEnterTitleM" />
 
     <EditText
-        android:id="@+id/etSecondS"
+        android:id="@+id/etEnterSecondM"
         android:layout_width="65dp"
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
@@ -110,11 +85,27 @@
         android:maxLength="2"
         android:textColor="@color/Prussian_Blue"
         android:textColorHint="@color/Prussian_Blue"
-        app:layout_constraintEnd_toEndOf="@id/etEpisodeS"
-        app:layout_constraintTop_toBottomOf="@id/etEpisodeS" />
+        app:layout_constraintEnd_toEndOf="@id/etEnterTitleM"
+        app:layout_constraintTop_toBottomOf="@id/etEnterTitleM" />
+
+    <EditText
+        android:id="@+id/etEnterImageM"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:hint="Enter Series Image"
+        android:maxLines="1"
+        android:paddingLeft="5dp"
+        android:scrollHorizontally="true"
+        android:textColor="@color/Prussian_Blue"
+        android:textColorHint="@color/Prussian_Blue"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etEnterMinuteM" />
 
     <TextView
-        android:id="@+id/tvSetStateS"
+        android:id="@+id/tvEnterSetStateM"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
@@ -122,19 +113,19 @@
         android:text="Set state:"
         android:textColor="@color/Prussian_Blue"
         android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@id/tvMinuteS"
-        app:layout_constraintTop_toBottomOf="@id/tvMinuteS" />
+        app:layout_constraintStart_toStartOf="@id/etEnterImageM"
+        app:layout_constraintTop_toBottomOf="@id/etEnterImageM" />
 
     <RadioGroup
-        android:id="@+id/rgSetStateS"
+        android:id="@+id/rgEnterSetStateM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        app:layout_constraintStart_toEndOf="@id/tvSetStateS"
-        app:layout_constraintTop_toBottomOf="@id/tvMinuteS">
+        app:layout_constraintStart_toEndOf="@id/tvEnterSetStateM"
+        app:layout_constraintTop_toBottomOf="@id/etEnterImageM">
 
         <RadioButton
-            android:id="@+id/rbToWatchS"
+            android:id="@+id/rbEnterToWatchS"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:buttonTint="@color/Prussian_Blue"
@@ -146,7 +137,7 @@
             android:textColor="@color/Prussian_Blue" />
 
         <RadioButton
-            android:id="@+id/rbWatchingS"
+            android:id="@+id/rbEnterWatchingS"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:buttonTint="@color/Prussian_Blue"
@@ -157,7 +148,7 @@
             android:textColor="@color/Prussian_Blue" />
 
         <RadioButton
-            android:id="@+id/rbWatchedS"
+            android:id="@+id/rbEnterWatchedS"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:buttonTint="@color/Prussian_Blue"
@@ -169,7 +160,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/btnCancelS"
+        android:id="@+id/btnEnterCancelM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -177,11 +168,11 @@
         android:backgroundTint="@color/Powder_Blue"
         android:text="Cancel"
         android:textColor="@color/Prussian_Blue"
-        app:layout_constraintStart_toStartOf="@id/tvMinuteS"
-        app:layout_constraintTop_toBottomOf="@id/rgSetStateS" />
+        app:layout_constraintStart_toStartOf="@id/etEnterImageM"
+        app:layout_constraintTop_toBottomOf="@id/rgEnterSetStateM" />
 
     <Button
-        android:id="@+id/btnSaveS"
+        android:id="@+id/btnEnterSaveM"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -189,18 +180,7 @@
         android:backgroundTint="@color/Celadon_Blue"
         android:text="Save"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="@id/etSecondS"
-        app:layout_constraintTop_toBottomOf="@id/rgSetStateS" />
+        app:layout_constraintEnd_toEndOf="@id/etEnterImageM"
+        app:layout_constraintTop_toBottomOf="@id/rgEnterSetStateM" />
 
-    <Button
-        android:id="@+id/btnDeleteS"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:width="280dp"
-        android:backgroundTint="@color/Imperial_Red"
-        android:text="Delete"
-        android:textColor="@color/white"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnCancelS" />
 </androidx.constraintlayout.widget.ConstraintLayout>
