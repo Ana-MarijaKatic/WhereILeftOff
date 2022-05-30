@@ -3,17 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.256" />
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/drawable-anydpi/ic_add_circle.xml" value="0.2085" />
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/drawable-anydpi/ic_star.xml" value="0.2185" />
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/drawable-anydpi/ic_star_border.xml" value="0.2185" />
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/drawable-anydpi/ic_star_half.xml" value="0.2185" />
-        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
-        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/edit_movie.xml" value="0.12183383991894631" />
-        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/edit_series.xml" value="0.2" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout-land/add_movie.xml" value="0.176" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout-land/add_series.xml" value="0.264" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout-land/details_movie.xml" value="0.21516754850088182" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout-land/details_series.xml" value="0.21516754850088182" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout-land/edit_movie.xml" value="0.2" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout-land/edit_series.xml" value="0.264" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout-land/movie_item.xml" value="0.5722679200940071" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout-land/series_item.xml" value="0.264" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/add_movie.xml" value="0.25052083333333336" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/add_series.xml" value="0.176" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/browse_movie_item.xml" value="0.25052083333333336" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/browse_movies.xml" value="0.25052083333333336" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/browse_series.xml" value="0.25052083333333336" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/browse_series_item.xml" value="0.25052083333333336" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/details_movie.xml" value="0.25052083333333336" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/details_series.xml" value="0.2" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/edit_movie.xml" value="0.264" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/edit_movies.xml" value="0.25416666666666665" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/edit_series.xml" value="0.176" />
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/fragment_movies.xml" value="0.25052083333333336" />
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/fragment_series.xml" value="0.25052083333333336" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/list_movie_item.xml" value="0.22056159420289856" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/list_series_item.xml" value="0.2" />
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/movie_item.xml" value="0.264" />
-        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/series_item.xml" value="0.2" />
+        <entry key="..\:/Ana-Marija/Faks/RMA_labosi/WhereILeftOff/app/src/main/res/layout/series_item.xml" value="0.4" />
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/app/src/main/res/drawable-anydpi/ic_add_circle.xml" value="0.146" />
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2375" />
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/app/src/main/res/layout/activity_main.xml" value="0.19972826086956522" />
