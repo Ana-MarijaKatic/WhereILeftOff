@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Honeydew"
-    tools:context=".MoviesFragment">
+    tools:context=".fragments.MoviesFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewMovies"
@@ -14,7 +14,7 @@
         android:paddingTop="52dp" />
 
     <ImageButton
-        android:id="@+id/ibAddSeries"
+        android:id="@+id/ibAddMovies"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_marginEnd="10dp"
