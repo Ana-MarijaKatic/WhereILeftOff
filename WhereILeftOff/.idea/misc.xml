@@ -39,6 +39,43 @@
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2375" />
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/app/src/main/res/layout/activity_main.xml" value="0.19972826086956522" />
         <entry key="..\:/Ana-Marija/Faks/RMA_labosi/app/src/main/res/layout/fragment_series.xml" value="0.176" />
+        <entry key="..\:/Users/Katic/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout-car/car_resolver_list.xml" value="0.1" />
+        <entry key="..\:/Users/Katic/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/app_not_authorized.xml" value="0.1015625" />
+        <entry key="..\:/Users/Katic/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/choose_type_and_account.xml" value="0.1015625" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.154" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/drawable-anydpi/ic_add_circle.xml" value="0.154" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/drawable-anydpi/ic_add_circle_dark.xml" value="0.154" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/drawable-anydpi/ic_add_dark.xml" value="0.16" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/drawable-anydpi/ic_star.xml" value="0.16" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/drawable-anydpi/ic_star_border.xml" value="0.16" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1245" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/drawable/add_button.xml" value="0.154" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/drawable/add_button_circle.xml" value="0.154" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout-land/add_movie.xml" value="0.1" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout-land/add_series.xml" value="0.2" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout-land/details_movie.xml" value="0.1" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout-land/details_series.xml" value="0.2" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout-land/edit_movie.xml" value="0.1" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout-land/edit_series.xml" value="0.1" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout-land/movie_item.xml" value="0.16" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout-land/series_item.xml" value="0.1" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/add_movie.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/add_series.xml" value="0.1" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/browse_movies.xml" value="0.23595505617977527" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/browse_series.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/details_movie.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/details_series.xml" value="0.2" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/edit_movie.xml" value="0.1109375" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/edit_series.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/fragment_movies.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/fragment_series.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/list_movie_item.xml" value="0.1" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/list_series_item.xml" value="0.16" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/movie_item.xml" value="0.264" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/layout/series_item.xml" value="0.24813895781637718" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1245" />
+        <entry key="..\:/Users/Katic/WhereILeftOff/WhereILeftOff/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1245" />
       </map>
     </option>
   </component>

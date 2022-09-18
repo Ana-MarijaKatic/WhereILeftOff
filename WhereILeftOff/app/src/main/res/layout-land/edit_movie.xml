@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Honeydew">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/Honeydew"
+    tools:context=".activities.movie.MovieEdit">
 
     <ImageView
         android:id="@+id/ivImageM"
@@ -17,12 +19,12 @@
         android:id="@+id/etTitleM"
         android:layout_width="280dp"
         android:layout_height="40dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="40dp"
         android:background="@color/white"
-        android:hint="Movie Title"
+        android:hint="@string/movie_title"
         android:maxLines="1"
-        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
         android:scrollHorizontally="true"
         android:textColor="@color/Prussian_Blue"
         android:textColorHint="@color/Prussian_Blue"
@@ -36,7 +38,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
         android:gravity="center"
-        android:text="Minute"
+        android:text="@string/minute"
         android:textColor="@color/Prussian_Blue"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@id/etTitleM"
@@ -49,7 +51,7 @@
         android:layout_marginTop="5dp"
         android:background="@color/white"
         android:gravity="center"
-        android:hint="0"
+        android:hint="@string/zero"
         android:inputType="number"
         android:maxLength="4"
         android:textColor="@color/Prussian_Blue"
@@ -63,7 +65,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
         android:gravity="center"
-        android:text="Second"
+        android:text="@string/second"
         android:textColor="@color/Prussian_Blue"
         android:textSize="16sp"
         app:layout_constraintEnd_toStartOf="@id/etSecondM"
@@ -76,7 +78,7 @@
         android:layout_marginTop="5dp"
         android:background="@color/white"
         android:gravity="center"
-        android:hint="0"
+        android:hint="@string/zero"
         android:inputType="number"
         android:maxLength="2"
         android:textColor="@color/Prussian_Blue"
@@ -90,7 +92,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
         android:gravity="center"
-        android:text="Set state:"
+        android:text="@string/set_state"
         android:textColor="@color/Prussian_Blue"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@id/tvMinuteM"
@@ -111,8 +113,7 @@
             android:buttonTint="@color/Prussian_Blue"
             android:checked="true"
             android:drawableEnd="@drawable/ic_star_border"
-            android:onClick="checkState"
-            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
             android:text="to watch  "
             android:textColor="@color/Prussian_Blue" />
 
@@ -122,8 +123,7 @@
             android:layout_height="40dp"
             android:buttonTint="@color/Prussian_Blue"
             android:drawableEnd="@drawable/ic_star_half"
-            android:onClick="checkState"
-            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
             android:text="watching "
             android:textColor="@color/Prussian_Blue" />
 
@@ -133,8 +133,7 @@
             android:layout_height="40dp"
             android:buttonTint="@color/Prussian_Blue"
             android:drawableEnd="@drawable/ic_star"
-            android:onClick="checkState"
-            android:paddingLeft="5dp"
+            android:paddingStart="5dp"
             android:text="watched  "
             android:textColor="@color/Prussian_Blue" />
     </RadioGroup>
@@ -146,7 +145,7 @@
         android:layout_marginTop="10dp"
         android:width="139dp"
         android:backgroundTint="@color/Powder_Blue"
-        android:text="Cancel"
+        android:text="@string/cancel"
         android:textColor="@color/Prussian_Blue"
         app:layout_constraintStart_toStartOf="@id/btnSaveM"
         app:layout_constraintTop_toBottomOf="@id/btnSaveM" />
@@ -156,10 +155,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
         android:width="139dp"
         android:backgroundTint="@color/Celadon_Blue"
-        android:text="Save"
+        android:text="@string/save"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -171,7 +170,7 @@
         android:layout_marginBottom="40dp"
         android:width="139dp"
         android:backgroundTint="@color/Imperial_Red"
-        android:text="Delete"
+        android:text="@string/delete"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@id/btnSaveM" />
