@@ -1,4 +1,30 @@
 <resources>
     <string name="app_name">Where I Left Off</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="se">Se:</string>
+    <string name="ep">Ep:</string>
+    <string name="series_title">Series Title</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="season_number">Season Number</string>
+    <string name="episode_number">Episode Number</string>
+    <string name="minute">Minute</string>
+    <string name="zero">0</string>
+    <string name="second">Second</string>
+    <string name="set_state">Set state:</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="season">Season:</string>
+    <string name="episode">Episode:</string>
+    <string name="year_released">Year Released:</string>
+    <string name="rating">Rating:</string>
+    <string name="overview">Overview:</string>
+    <string name="runtime">Runtime:</string>
+    <string name="browse">Browse</string>
+    <string name="enter_series_title">Enter Series Title</string>
+    <string name="enter_season_number">Enter Season Number</string>
+    <string name="enter_episode_number">Enter Episode Number</string>
+    <string name="enter_series_image">Enter Series Image</string>
+    <string name="enter_movie_title">Enter Movie Title</string>
+    <string name="enter_movie_image">Enter Movie Image</string>
+
 </resources>

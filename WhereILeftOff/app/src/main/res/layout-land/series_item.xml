@@ -11,7 +11,7 @@
         android:id="@+id/ivSeriesImage"
         android:layout_width="100dp"
         android:layout_height="70dp"
-        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="10dp"
         android:scaleType="centerCrop"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -19,29 +19,27 @@
 
     <TextView
         android:id="@+id/tvSeriesTitle"
-        android:layout_width="540dp"
+        android:layout_width="530dp"
         android:layout_height="32dp"
         android:ellipsize="marquee"
         android:marqueeRepeatLimit="marquee_forever"
         android:maxLines="1"
-        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
         android:scrollHorizontally="true"
-        android:text="Series Title"
+        android:text="@string/series_title"
         android:textColor="@color/Prussian_Blue"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/ivSeriesImage"
-        app:layout_constraintTop_toTopOf="parent"
-
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvSeriesSeason"
-        android:layout_width="70dp"
-        android:layout_height="22dp"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="5dp"
-        android:text="Se:"
+        android:layout_marginEnd="5dp"
+        android:text="@string/se"
         android:textColor="@color/Prussian_Blue"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,23 +47,21 @@
 
     <TextView
         android:id="@+id/tvSeriesEpisode"
-        android:layout_width="70dp"
-        android:layout_height="22dp"
-        android:layout_marginRight="5dp"
-        android:text="Ep:"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/ep"
         android:textColor="@color/Prussian_Blue"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvSeriesSeason"
-
-        />
+        app:layout_constraintTop_toBottomOf="@id/tvSeriesSeason" />
 
     <ImageView
         android:id="@+id/ivSeriesState"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

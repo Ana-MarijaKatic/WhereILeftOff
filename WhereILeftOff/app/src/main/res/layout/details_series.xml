@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/clDetailsS"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Honeydew">
+    android:background="@color/Honeydew"
+    tools:context=".activities.series.SeriesDetails">
 
     <ImageView
         android:id="@+id/ivDetailsImageS"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="280dp"
         android:scaleType="centerCrop"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvDetailsTitleS"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="10dp"
         android:ellipsize="marquee"
         android:gravity="center_vertical"
         android:marqueeRepeatLimit="marquee_forever"
-        android:maxLines="1"
-        android:paddingLeft="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
         android:scrollHorizontally="true"
-        android:text="Series Title"
+        android:text="@string/series_title"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -33,12 +37,12 @@
 
     <TextView
         android:id="@+id/tvDetailsSeasonS"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
         android:gravity="center_vertical"
-        android:paddingLeft="5dp"
-        android:text="Season: "
+        android:text="@string/season"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -47,12 +51,12 @@
 
     <TextView
         android:id="@+id/tvDetailsEpisodeS"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
         android:gravity="center_vertical"
-        android:paddingLeft="5dp"
-        android:text="Episode: "
+        android:text="@string/episode"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -61,12 +65,12 @@
 
     <TextView
         android:id="@+id/tvDetailsYearReleasedS"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
         android:gravity="center_vertical"
-        android:paddingLeft="5dp"
-        android:text="Year Released: "
+        android:text="@string/year_released"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -75,12 +79,12 @@
 
     <TextView
         android:id="@+id/tvDetailsRatingS"
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
         android:gravity="center_vertical"
-        android:paddingLeft="5dp"
-        android:text="Rating: "
+        android:text="@string/rating"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -88,16 +92,18 @@
         app:layout_constraintTop_toBottomOf="@id/tvDetailsYearReleasedS" />
 
     <TextView
-        android:id="@+id/tvDetailsSummaryS"
-        android:layout_width="280dp"
+        android:id="@+id/tvDetailsOverviewS"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="40dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:gravity="center_vertical"
-        android:maxHeight="280dp"
         android:minHeight="40dp"
-        android:paddingLeft="5dp"
+        android:text="@string/overview"
+        android:maxLines="12"
         android:textColor="@color/black"
         android:textSize="16sp"
+        android:scrollbars="vertical"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvDetailsRatingS" />

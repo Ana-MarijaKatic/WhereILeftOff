@@ -1,4 +1,8 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.kotlin_version = '1.5.31'
+}
+
 plugins {
     id 'com.android.application' version '7.1.2' apply false
     id 'com.android.library' version '7.1.2' apply false
@@ -7,4 +11,24 @@ plugins {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext {
+    coreVersion='1.7.0'
+    activityVersion = '1.4.0'
+    appCompatVersion = '1.4.1'
+    fragmentVersion = '1.5.2'
+    cardviewVersion= '1.0.0'
+    constraintLayoutVersion = '2.1.3'
+    coreTestingVersion = '2.1.0'
+    coroutines = '1.5.2'
+    lifecycleVersion = '2.4.0'
+    materialVersion = '1.5.0'
+    roomVersion = '2.4.0-alpha03'
+    glideVersion = '4.11.0'
+    okhttp3Version= '4.2.1'
+    // testing
+    junitVersion = '4.13.2'
+    espressoVersion = '3.4.0'
+    androidxJunitVersion = '1.1.3'
 }

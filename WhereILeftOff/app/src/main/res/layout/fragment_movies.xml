@@ -11,7 +11,8 @@
         android:id="@+id/recyclerViewMovies"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="52dp" />
+        android:paddingTop="2dp"
+        tools:listitem="@layout/movie_item" />
 
     <ImageButton
         android:id="@+id/ibAddMovies"
@@ -22,8 +23,9 @@
         android:background="@color/Transparent"
         android:clickable="true"
         android:focusable="true"
-        android:src="@drawable/ic_add_circle"
+        android:src="@drawable/add_button_circle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
